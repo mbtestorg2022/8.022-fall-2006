@@ -18,57 +18,947 @@ Feynman, Richard P., Robert B. Leighton, and Matthew Sands. _The Feynman Lecture
 
 All of the readings are from Griffiths, unless otherwise noted.
 
-| WEEK # | SES # | TOPICS | READINGS |
-| --- | --- | --- | --- |
-| {{< h 3 >}}Week 1{{< /h >}} {{< br >}}{{< br >}} Introduction, electric field {{< br >}}{{< br >}}  | 1 | Intro: Electrostatics | Sections 2.1.1-2.1.4. |
-| 2 | Electrostatics problem solving | &nbsp; |
-| {{< h 3 >}}Week 2{{< /h >}} {{< br >}}{{< br >}} Mathematical background {{< br >}}{{< br >}}  | 3 | Vector review | {{< h 3 >}}Review: Vectors{{< /h >}} {{< br >}}{{< br >}} Sections 1.1.1-1.1.4. {{< br >}}{{< br >}} {{< h 3 >}}Differential calculus: Div, grad, curl{{< /h >}} {{< br >}}{{< br >}} Sections 1.2.1-1.2.7. {{< br >}}{{< br >}}  |
-| 4 | Divergence, gradient, curl | Sections 1.3.1-1.3.3. |
-| 5 | Integral calculus, Dirac delta function | Section 1.3.4. |
-| 6 | Dirac delta function, curvilinear coordinates | Section 1.5. |
-| {{< h 3 >}}Week 3{{< /h >}} {{< br >}}{{< br >}} Gauss's law and electric potential {{< br >}}{{< br >}}  | 7 | More curvilinear coordinates: Div and grad in spherical coordinates; Gauss's law | Section 1.41. |
-| 8 | Applications of Gauss's law: Field lines, point charge, Gaussian surfaces | {{< h 3 >}}Divergence of electrostatic fields{{< /h >}} {{< br >}}{{< br >}} Sections 2.2.1-2.2.2. {{< br >}}{{< br >}} {{< h 3 >}}Application of Gauss's law{{< /h >}} {{< br >}}{{< br >}} Section 2.2.3. {{< br >}}{{< br >}}  |
-| 9 | Applications of Gauss's law: Line charge, plane charge | {{< h 3 >}}Application of Gauss's law{{< /h >}} {{< br >}}{{< br >}} Section 2.2.3. {{< br >}}{{< br >}} {{< h 3 >}}The curl of electric field{{< /h >}} {{< br >}}{{< br >}} Section 2.2.4. {{< br >}}{{< br >}}  |
-| 10 | Electric potential; Poisson's equation; Laplace's equation | Sections 2.3.1-2.3.5. |
-| {{< h 3 >}}Week 4{{< /h >}} {{< br >}}{{< br >}} Work and energy in electrostatics; conductors and capacitors {{< br >}}{{< br >}}  | 11 | Electrostatic boundary conditions; conductors | {{< h 3 >}}Electrostatic boundary conditions{{< /h >}} {{< br >}}{{< br >}} Section 2.3.5. {{< br >}}{{< br >}} {{< h 3 >}}Conductors{{< /h >}} {{< br >}}{{< br >}} Section 2.5. {{< br >}}{{< br >}}  |
-| 12 | Capacitors, dielectrics, work | Sections 2.4.1-2.4.4. |
-| 13 | Capacitors, work, first and second uniqueness theorems | Sections 2.5.1-2.5.4. |
-| {{< h 3 >}}Week 5{{< /h >}} {{< br >}}{{< br >}} The method of images and multipole expansion {{< br >}}{{< br >}}  | 14 | Method of images | {{< h 3 >}}Laplace's equation{{< /h >}} {{< br >}}{{< br >}} Sections 3.1.3-3.1.6. {{< br >}}{{< br >}} {{< h 3 >}}The method of images{{< /h >}} {{< br >}}{{< br >}} Sections 3.2.1-3.2.4. {{< br >}}{{< br >}}  |
-| 15 | Parallel plate capacitor, electric dipole | {{< h 3 >}}Multipole expansion{{< /h >}} {{< br >}}{{< br >}} Sections 3.4.1-3.4.2. {{< br >}}{{< br >}} {{< h 3 >}}Electric dipole{{< /h >}} {{< br >}}{{< br >}} Sections 3.4.3-3.4.4. {{< br >}}{{< br >}}  |
-| 16 | Separation of variables | Section 3.3. |
-| {{< h 3 >}}Week 6{{< /h >}} {{< br >}}{{< br >}} Exam 1 {{< br >}}{{< br >}}  | 17 | Review for exam 1 | &nbsp; |
-| 18 | Exam 1 | &nbsp; |
-| {{< h 3 >}}Week 7{{< /h >}} {{< br >}}{{< br >}} Magnetostatics and special relativity {{< br >}}{{< br >}}  | 19 | Dielectrics | Sections 4.1, 4.2, and 4.3. |
-| 20 | Magnetostatics, electric currents | {{< h 3 >}}Dielectrics{{< /h >}} {{< br >}}{{< br >}} Section 4.4. {{< br >}}{{< br >}} {{< h 3 >}}Electricity and magnetism{{< /h >}} {{< br >}}{{< br >}} Purcell. Chapter 4. {{< br >}}{{< br >}}  |
-| 21 | Special relativity | {{< h 3 >}}Electricity and magnetism{{< /h >}} {{< br >}}{{< br >}} Purcell. Chapter 4. {{< br >}}{{< br >}}  |
-| 22 | Special relativity (cont.) |  {{< br >}}{{< br >}} Sections 12.1.1-12.1.4. {{< br >}}{{< br >}} Purcell. Chapter 5. {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Week 8{{< /h >}} {{< br >}}{{< br >}} Magnetic fields {{< br >}}{{< br >}}  | 23 | Electric fields and force |  {{< br >}}{{< br >}} Sections 12.1.1-12.1.4. {{< br >}}{{< br >}} Purcell. Chapter 5. {{< br >}}{{< br >}}  |
-| 24 | Magnetic fields; Lorenz force law | Sections 5.1.1-5.1.3. |
-| 25 | Cycloidal motion; Biot-Savart law | Sections 5.1.1-5.1.3. |
-| 26 | Biot-Savart law (cont.); Ampere's law |  {{< br >}}{{< br >}} Section 12.3.1. {{< br >}}{{< br >}} Purcell. Chapter 5. {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Week 9{{< /h >}} {{< br >}}{{< br >}} Magnetic fields; Maxwell's laws; magnetic properties of materials {{< br >}}{{< br >}}  | 27 | Maxwell's equations | Sections 5.3.1-5.3.4. |
-| 28 | Induction | {{< h 3 >}}Problem solving Ampere's law{{< /h >}} {{< br >}}{{< br >}} Sections 5.3.1-5.3.4. {{< br >}}{{< br >}} {{< h 3 >}}Griffiths vector potential{{< /h >}} {{< br >}}{{< br >}} Section 5.4.1. {{< br >}}{{< br >}}  |
-| 29 | Magnetic boundary conditions; magnetic dipole | Section 5.2. |
-| 30 | Magnetization; magnetic properties of materials | {{< h 3 >}}Magnetic boundary conditions{{< /h >}} {{< br >}}{{< br >}} Section 5.4.2. {{< br >}}{{< br >}} {{< h 3 >}}Multipole expansion of vector potential, magnetic moments{{< /h >}} {{< br >}}{{< br >}} Section 5.4.3. {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Week 10{{< /h >}} {{< br >}}{{< br >}} Exam 2; magnetized materials {{< br >}}{{< br >}}  | 31 | Review for exam 2 | &nbsp; |
-| 32 | Exam 2 | &nbsp; |
-| 33 | Ampere's law in magnetized materials | {{< h 3 >}}Magnetization{{< /h >}} {{< br >}}{{< br >}} Sections 6.1-6.4. {{< br >}}{{< br >}} {{< h 3 >}}Magnetic properties of materials and quantum mechanics{{< /h >}} {{< br >}}{{< br >}} Feynman. Chapters 34-37. {{< br >}}{{< br >}}  |
-| 34 | Bound current; ferromagnetism | Sections 7.1.1-7.1.3. |
-| {{< h 3 >}}Week 11{{< /h >}} {{< br >}}{{< br >}} Circuits {{< br >}}{{< br >}}  | 35 | Circuits | {{< h 3 >}}Faraday's law of induction{{< /h >}} {{< br >}}{{< br >}} Section 7.2.1. {{< br >}}{{< br >}} {{< h 3 >}}The induced electric field{{< /h >}} {{< br >}}{{< br >}} Section 7.2.2. {{< br >}}{{< br >}}  |
-| 36 | Circuits; undriven RC circuits; Thevenin's theorem | Section 7.2.3. |
-| 37 | Thevenin's theorem (cont.); Ohm's law; Faraday's law; Lenz's law | Section 7.2.4. |
-| 38 | Alternating current circuits | Section 7.2.4. |
-| {{< h 3 >}}Week 12{{< /h >}} {{< br >}}{{< br >}} Circuits (cont.) {{< br >}}{{< br >}}  | 39 | Inductance | {{< h 3 >}}Alternating current circuits{{< /h >}} {{< br >}}{{< br >}} Purcell. Chapter 8. {{< br >}}{{< br >}}  |
-| 40 | Undriven RLC circuits | {{< h 3 >}}Alternating current circuits{{< /h >}} {{< br >}}{{< br >}} Purcell. Chapter 8. {{< br >}}{{< br >}}  |
-| 41 | Driven RLC circuits; Ladder impedance | Purcell. Chapter 8. |
-| {{< h 3 >}}Week 13{{< /h >}} {{< br >}}{{< br >}} Maxwell; momentum {{< br >}}{{< br >}}  | 42 | Maxwell's equations | {{< h 3 >}}Alternating current circuits{{< /h >}} {{< br >}}{{< br >}} Purcell. Chapter 8. {{< br >}}{{< br >}} {{< h 3 >}}Maxwell's equations{{< /h >}} {{< br >}}{{< br >}} Section 7.3. {{< br >}}{{< br >}}  |
-| 43 | Poynting vector; Maxwell stress tensor | Section 7.3. |
-| 44 | Conservation of momentum; Minkowski force |  {{< br >}}{{< br >}} Sections 8.1.1-8.1.2. {{< br >}}{{< br >}} {{< h 3 >}}Momentum{{< /h >}} {{< br >}}{{< br >}} Section 8.2. {{< br >}}{{< br >}}  |
-| 45 | Review for exam 3 | &nbsp; |
-| {{< h 3 >}}Week 14{{< /h >}} {{< br >}}{{< br >}} Electromagnetic waves {{< br >}}{{< br >}}  | 46 | Exam 3 | &nbsp; |
-| 47 | Electromagnetic waves | Sections 9.1.1.1-9.1.2. |
-| 48 | Electromagnetic waves (cont.) | Sections 9.1.1.1-9.1.3. |
-| 49 | Topics for next week; relativity | Sections 12.1-12.3. |
-| {{< h 3 >}}Week 15{{< /h >}} {{< br >}}{{< br >}} Advanced topics in relativity; quantum {{< br >}}{{< br >}}  | 50 | Faraday tensor; Maxwell; General relativity | Sections 12.1-12.3. |
-| 51 | Quantum | &nbsp; |
-| 52 | Schrodinger equation |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+WEEK #
+{{< thclose >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 1
+
+Introduction, electric field
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Intro: Electrostatics
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 2.1.1-2.1.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Electrostatics problem solving
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 2
+
+Mathematical background
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Vector review
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Review: Vectors
+
+Sections 1.1.1-1.1.4.
+
+### Differential calculus: Div, grad, curl
+
+Sections 1.2.1-1.2.7.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence, gradient, curl
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 1.3.1-1.3.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Integral calculus, Dirac delta function
+{{< tdclose >}}
+{{< tdopen >}}
+Section 1.3.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Dirac delta function, curvilinear coordinates
+{{< tdclose >}}
+{{< tdopen >}}
+Section 1.5.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 3
+
+Gauss's law and electric potential
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+More curvilinear coordinates: Div and grad in spherical coordinates; Gauss's law
+{{< tdclose >}}
+{{< tdopen >}}
+Section 1.41.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Applications of Gauss's law: Field lines, point charge, Gaussian surfaces
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Divergence of electrostatic fields
+
+Sections 2.2.1-2.2.2.
+
+### Application of Gauss's law
+
+Section 2.2.3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Applications of Gauss's law: Line charge, plane charge
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Application of Gauss's law
+
+Section 2.2.3.
+
+### The curl of electric field
+
+Section 2.2.4.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Electric potential; Poisson's equation; Laplace's equation
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 2.3.1-2.3.5.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 4
+
+Work and energy in electrostatics; conductors and capacitors
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Electrostatic boundary conditions; conductors
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Electrostatic boundary conditions
+
+Section 2.3.5.
+
+### Conductors
+
+Section 2.5.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Capacitors, dielectrics, work
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 2.4.1-2.4.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Capacitors, work, first and second uniqueness theorems
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 2.5.1-2.5.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 5
+
+The method of images and multipole expansion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Method of images
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Laplace's equation
+
+Sections 3.1.3-3.1.6.
+
+### The method of images
+
+Sections 3.2.1-3.2.4.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Parallel plate capacitor, electric dipole
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Multipole expansion
+
+Sections 3.4.1-3.4.2.
+
+### Electric dipole
+
+Sections 3.4.3-3.4.4.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Separation of variables
+{{< tdclose >}}
+{{< tdopen >}}
+Section 3.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 6
+
+Exam 1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Review for exam 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Exam 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 7
+
+Magnetostatics and special relativity
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Dielectrics
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 4.1, 4.2, and 4.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Magnetostatics, electric currents
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Dielectrics
+
+Section 4.4.
+
+### Electricity and magnetism
+
+Purcell. Chapter 4.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Special relativity
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Electricity and magnetism
+
+Purcell. Chapter 4.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Special relativity (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Sections 12.1.1-12.1.4.
+
+Purcell. Chapter 5.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 8
+
+Magnetic fields
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Electric fields and force
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Sections 12.1.1-12.1.4.
+
+Purcell. Chapter 5.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Magnetic fields; Lorenz force law
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.1.1-5.1.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Cycloidal motion; Biot-Savart law
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.1.1-5.1.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Biot-Savart law (cont.); Ampere's law
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Section 12.3.1.
+
+Purcell. Chapter 5.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 9
+
+Magnetic fields; Maxwell's laws; magnetic properties of materials
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Maxwell's equations
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 5.3.1-5.3.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Induction
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Problem solving Ampere's law
+
+Sections 5.3.1-5.3.4.
+
+### Griffiths vector potential
+
+Section 5.4.1.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+Magnetic boundary conditions; magnetic dipole
+{{< tdclose >}}
+{{< tdopen >}}
+Section 5.2.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Magnetization; magnetic properties of materials
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Magnetic boundary conditions
+
+Section 5.4.2.
+
+### Multipole expansion of vector potential, magnetic moments
+
+Section 5.4.3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 10
+
+Exam 2; magnetized materials
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+31
+{{< tdclose >}}
+{{< tdopen >}}
+Review for exam 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+Exam 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+33
+{{< tdclose >}}
+{{< tdopen >}}
+Ampere's law in magnetized materials
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Magnetization
+
+Sections 6.1-6.4.
+
+### Magnetic properties of materials and quantum mechanics
+
+Feynman. Chapters 34-37.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+34
+{{< tdclose >}}
+{{< tdopen >}}
+Bound current; ferromagnetism
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 7.1.1-7.1.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 11
+
+Circuits
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+35
+{{< tdclose >}}
+{{< tdopen >}}
+Circuits
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Faraday's law of induction
+
+Section 7.2.1.
+
+### The induced electric field
+
+Section 7.2.2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+36
+{{< tdclose >}}
+{{< tdopen >}}
+Circuits; undriven RC circuits; Thevenin's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Section 7.2.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+37
+{{< tdclose >}}
+{{< tdopen >}}
+Thevenin's theorem (cont.); Ohm's law; Faraday's law; Lenz's law
+{{< tdclose >}}
+{{< tdopen >}}
+Section 7.2.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+38
+{{< tdclose >}}
+{{< tdopen >}}
+Alternating current circuits
+{{< tdclose >}}
+{{< tdopen >}}
+Section 7.2.4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 12
+
+Circuits (cont.)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+39
+{{< tdclose >}}
+{{< tdopen >}}
+Inductance
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Alternating current circuits
+
+Purcell. Chapter 8.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+40
+{{< tdclose >}}
+{{< tdopen >}}
+Undriven RLC circuits
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Alternating current circuits
+
+Purcell. Chapter 8.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+41
+{{< tdclose >}}
+{{< tdopen >}}
+Driven RLC circuits; Ladder impedance
+{{< tdclose >}}
+{{< tdopen >}}
+Purcell. Chapter 8.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 13
+
+Maxwell; momentum
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+42
+{{< tdclose >}}
+{{< tdopen >}}
+Maxwell's equations
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Alternating current circuits
+
+Purcell. Chapter 8.
+
+### Maxwell's equations
+
+Section 7.3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+43
+{{< tdclose >}}
+{{< tdopen >}}
+Poynting vector; Maxwell stress tensor
+{{< tdclose >}}
+{{< tdopen >}}
+Section 7.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+44
+{{< tdclose >}}
+{{< tdopen >}}
+Conservation of momentum; Minkowski force
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Sections 8.1.1-8.1.2.
+
+### Momentum
+
+Section 8.2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+45
+{{< tdclose >}}
+{{< tdopen >}}
+Review for exam 3
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 14
+
+Electromagnetic waves
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+46
+{{< tdclose >}}
+{{< tdopen >}}
+Exam 3
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+47
+{{< tdclose >}}
+{{< tdopen >}}
+Electromagnetic waves
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 9.1.1.1-9.1.2.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+48
+{{< tdclose >}}
+{{< tdopen >}}
+Electromagnetic waves (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 9.1.1.1-9.1.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+49
+{{< tdclose >}}
+{{< tdopen >}}
+Topics for next week; relativity
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 12.1-12.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Week 15
+
+Advanced topics in relativity; quantum
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+50
+{{< tdclose >}}
+{{< tdopen >}}
+Faraday tensor; Maxwell; General relativity
+{{< tdclose >}}
+{{< tdopen >}}
+Sections 12.1-12.3.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+51
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+52
+{{< tdclose >}}
+{{< tdopen >}}
+Schrodinger equation
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

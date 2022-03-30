@@ -4,6 +4,7 @@ description: Lecture notes about Induction. Prepared in LaTeX by James Silva, an
   student, based upon handwritten notes.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/8-022-physics-ii-electricity-and-magnetism-fall-2006/eef93b591795e93378a94ef537d32d80_lecture26.pdf
 file_type: application/pdf
+parent_uid: 40ce783f-f31e-d750-d8ab-3fb0cc415acb
 resourcetype: Document
 title: lecture26.pdf
 uid: eef93b59-1795-e933-78a9-4ef537d32d80

@@ -4,6 +4,7 @@ description: Lecture notes about electromagnetic waves, continued. Prepared in L
   by James Silva, an MIT student, based upon handwritten notes.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/8-022-physics-ii-electricity-and-magnetism-fall-2006/daa755f31f4c2a35170a653d0d67c67f_lecture42.pdf
 file_type: application/pdf
+parent_uid: 40ce783f-f31e-d750-d8ab-3fb0cc415acb
 resourcetype: Document
 title: lecture42.pdf
 uid: daa755f3-1f4c-2a35-170a-653d0d67c67f

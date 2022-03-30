@@ -5,6 +5,7 @@ description: Lecture notes about about RC circuits, undriven RC circuits, and Th
   handwritten notes.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/8-022-physics-ii-electricity-and-magnetism-fall-2006/3208983b0da3f94ce5f60337dc32ec91_lecture32.pdf
 file_type: application/pdf
+parent_uid: 40ce783f-f31e-d750-d8ab-3fb0cc415acb
 resourcetype: Document
 title: lecture32.pdf
 uid: 3208983b-0da3-f94c-e5f6-0337dc32ec91

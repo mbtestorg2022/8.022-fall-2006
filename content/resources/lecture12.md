@@ -4,6 +4,7 @@ description: Lecture notes about capacitors, dielectrics, and work. Prepared in 
   by James Silva, an MIT student, based upon handwritten notes.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/8-022-physics-ii-electricity-and-magnetism-fall-2006/a8024aef530ced6f3219d360262eaef6_lecture12.pdf
 file_type: application/pdf
+parent_uid: 40ce783f-f31e-d750-d8ab-3fb0cc415acb
 resourcetype: Document
 title: lecture12.pdf
 uid: a8024aef-530c-ed6f-3219-d360262eaef6
